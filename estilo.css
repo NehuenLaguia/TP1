@@ -1,23 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    color: gray;
 }
 main{
     display: flex;
     justify-content: space-around;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 .Formulario{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 50%;
-    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    flex-basis: 50%; 
+    flex-direction: column;  
     
 }
 
+.todo{
+    width: 50%;
+}
 
+.todo h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
 
+.pass{
+    margin: 20px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+
+.datos input{
+    padding: 8px;
+    padding-right: 155px;
+    border-radius: 5px; 
+    border-color: gainsboro;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;      
+}
+
+.sign button{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin-bottom: 20px;
+    
+}
+
+.google{
+    background-color: white;
+    border-color: gray;
+    margin-bottom: 40px;
+    
+}
+
+.dont{
+    display: flex;
+    justify-content: center;
+}
+.dont a{
+    
+    color: black;
+    text-decoration: none;   
+}
 
 
 .Fondo{
@@ -28,3 +95,10 @@ main{
     width: 100%;
 }
 
+.googlei{
+    width: 18px;
+}
+
+.email{
+    margin-bottom: 20px;
+}
